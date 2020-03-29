@@ -5,14 +5,54 @@
         <title>Contact, Christian Ruiz Portfolio</title>
     </head>
     <body>
+        <table>
+            <th>Home</th>
+            <th>Projects</th>
+            <th>Contact</th>
+            <th>About</th>
+        </table>
         <form>
-            <h1>Contact</h1>
-            <h2>Please Input your Contact Information</h2>
+            <h1>Contact and Inquiry for Services Form</h1>
+            
+            <table>
+                <tr>
+                    <label for="name">Name: </label>
+                    <input id="name" type="text" name="inquiryname" required>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <label for="email">Email: </label>
+                    <input id="email" type="email" name="inquryemail" required>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <label for="phone">Phone Number: </label>
+                    <input id="phone" type="tel" name="phonenumber" required>
+                </tr>
+            </table>
+            <p>What kind of work does your business practice?</p>
+            <table>
+                <label for="construction">Construction</label>
+                <input id="construction" type="radio" name="businesstype">
+                <label for="nonprofit">Non-Profit</label>
+                <input id="nonprofit" type="radio" name="businesstype">
+            </table>
+            <table>
+                <label for="financial">Financial Services</label>
+                <input id="financial" type="radio" name="businesstype">
+                <label for="property">Property</label>
+                <input id="property" type="radio" name="businesstype">
+            </table>
+            <table>
+                <label for="technology">Technology</label>
+                <input id="technology" type="radio" name="businesstype">
+                <label for="marketing">Marketing</label>
+                <input id="marketing" type="radio" name="businesstype">
+            </table>
 
-            <input type="email" name="inquryemail" value="Email">
-            <input type="tel" name="phonenumber" value="Phone Number">
             <input type="submit" name="" value="Submit">
-
         </form>
     </body>
 </html>
